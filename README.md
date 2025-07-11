@@ -1,2 +1,5 @@
 # AI-Mental-Health-Chatbot-Therapist-
 This AI Therapist is a Python CLI application that uses Streamlit for its interface and OpenAI's GPT-4o for empathetic conversational AI. It features user authentication (login/signup) with secure password hashing, stores chat history in-session, and provides a personalized therapeutic experience.
+The application incorporates a robust user authentication system, allowing new users to securely register with a username and password, which are then hashed for storage. Existing users can log in using their credentials. Chat history is maintained within the user's session, ensuring continuity in conversations with the AI therapist.
+Stylistically, the application features a custom background image and designed chat bubbles for user and AI messages, enhancing the visual experience. The backend manages user data in a 
+users.json file, where passwords are securely stored as SHA256 hashes. This project offers a personalized and secure platform for users to engage with an AI for therapeutic support.
